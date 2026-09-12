@@ -4,9 +4,9 @@ A local-first, professional Windows desktop PDF suite built with
 PySide6, PyMuPDF, and pypdf. Your files never leave your computer
 unless you explicitly enable an online feature.
 
-## Status: Phase 1 complete
+## Status: Phase 2 complete
 
-This build implements the **application shell**:
+This build implements the **application shell and core PDF workflows**:
 
 - Modern dark/light themed desktop UI (navy / electric blue / violet accent)
 - Sidebar navigation, top toolbar, dashboard with quick actions
@@ -17,11 +17,11 @@ This build implements the **application shell**:
 - Startup dependency detection for Tesseract, LibreOffice, Ghostscript, PyMuPDF
 - Robust error handling — no raw tracebacks ever reach the UI
 - Full logging to `%APPDATA%/PDFusion/logs/app.log`
+- Merge, Split, Organize, Rotate, Crop, and Extract Pages
+- Worker-backed progress, cancellation, results, and processing history
+- Staged organize edits with atomic Save and original-file protection
 
-Actual PDF processing tools (Merge, Split, Compress, OCR, Convert, etc.)
-are implemented in the phases that follow, per the build roadmap in
-`PHASES.md`. Each category page currently explains which phase it lands in
-rather than faking a working button.
+Unavailable future tools are intentionally omitted from the current UI.
 
 ## Requirements
 
