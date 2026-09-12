@@ -1,0 +1,28 @@
+# PDFusion — All-in-One PDF Workspace
+# Core GUI
+PySide6>=6.7.0
+
+# PDF engines
+PyMuPDF>=1.24.0        # fitz — rendering, low-level page ops, redaction
+pypdf>=4.2.0            # structural ops — merge/split/rotate/metadata/encrypt
+
+# Imaging / OCR
+Pillow>=10.3.0
+pytesseract>=0.3.10     # requires system Tesseract-OCR binary (see Settings > Advanced)
+
+# Office format support
+python-docx>=1.1.0
+openpyxl>=3.1.2
+python-pptx>=0.6.23
+
+# PDF generation
+reportlab>=4.2.0
+
+# Security
+cryptography>=42.0.0
+
+# Packaging (dev)
+pyinstaller>=6.6.0
+
+# Testing (dev)
+pytest>=8.2.0

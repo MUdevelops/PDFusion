@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local application data
+*.sqlite3
+*.sqlite3-journal
+*.log
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
