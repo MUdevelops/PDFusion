@@ -1,204 +1,179 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,35:312E81,70:7C3AED,100:06B6D4&height=210&section=header&text=PDFusion&fontSize=64&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Modern%20Local-First%20PDF%20Workspace&descAlignY=60&descSize=20" width="100%"/>
+
 # 📄 PDFusion
 
-### All-in-One PDF Workspace for Windows
+### **A Premium Desktop Workspace for Everyday PDF Tasks**
 
 <p>
-  <strong>Powerful PDF tools. Local-first processing. Clean desktop experience.</strong>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=900&color=8B5CF6&center=true&vCenter=true&width=800&lines=Merge+%E2%80%A2+Split+%E2%80%A2+Organize+%E2%80%A2+Rotate;Crop+%E2%80%A2+Extract+%E2%80%A2+View+%E2%80%A2+Manage;Local-First+%E2%80%A2+Private+%E2%80%A2+Fast+%E2%80%A2+Clean;Built+with+Python+%2B+PySide6" alt="Typing Animation"/>
 </p>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&color=4F8CFF&center=true&vCenter=true&width=700&lines=Merge+PDFs;Split+PDFs;Organize+Pages;Rotate+%26+Crop;Extract+Pages;Everything+Runs+Locally" alt="Typing Animation" />
+  <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PySide6-Desktop-41CD52?style=for-the-badge&logo=qt&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyMuPDF-PDF_Engine-FF6B35?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/pypdf-PDF_Core-8B5CF6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PySide6-Desktop_UI-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyMuPDF-PDF_Engine-FF6B35?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/pypdf-PDF_Operations-8A2BE2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
-</p>
-
-<p>
+  <a href="#-why-pdfusion">Why PDFusion</a> •
   <a href="#-features">Features</a> •
   <a href="#-screenshots">Screenshots</a> •
   <a href="#-tech-stack">Tech Stack</a> •
   <a href="#-installation">Installation</a> •
-  <a href="#-usage">Usage</a> •
   <a href="#-roadmap">Roadmap</a>
 </p>
+
+<br>
+
+> **Powerful PDF workflows without turning your documents into an online upload.**
 
 </div>
 
 ---
 
-## ✨ Overview
+## ✨ Why PDFusion?
 
-**PDFusion** is a modern, local-first desktop PDF workspace designed to make everyday PDF processing simple, fast, and private.
+**PDFusion** is a modern, local-first PDF application built to make common document operations feel simple, visual, and reliable.
 
-Instead of sending your documents to an online service, PDFusion is designed around **local processing** — keeping your files on your own computer.
+Instead of juggling multiple websites for basic PDF tasks, PDFusion brings the essential workflows into **one focused desktop workspace**.
 
-Whether you need to merge documents, split pages, reorganize a PDF, rotate pages, crop content, or extract selected pages, PDFusion provides these workflows through a clean desktop interface.
+### 💎 The Experience
 
-> 🔒 **Your documents stay on your computer.**
-
----
-
-## 🚀 Highlights
-
-| | Capability |
-|---|---|
-| 🖥️ | Modern PySide6 desktop interface |
-| 🔐 | Local-first PDF processing |
-| 📑 | Built-in PDF viewer |
-| 🧩 | Modular application architecture |
-| 🖱️ | Drag-and-drop file intake |
-| 🌓 | Dark & Light themes |
-| 🗂️ | Recent Files & Favorites |
-| 📜 | Processing History |
-| ⚡ | Background worker processing |
-| 🛡️ | Original-file protection |
-| 📝 | Detailed application logging |
-| 🧪 | Automated testing with PyTest |
+| ⚡ Fast | 🔒 Local-First | 🎨 Clean | 🧩 Modular |
+|:---:|:---:|:---:|:---:|
+| Background processing keeps the UI responsive | Designed around local document processing | Modern desktop interface with theme support | Separated UI, workers, storage & PDF logic |
 
 ---
 
-# 🛠️ Features
+# 🚀 Features
 
-## 📌 PDF Operations
+## 📑 Core PDF Tools
+
+<table>
+<tr>
+<td width="50%">
 
 ### 🔗 Merge PDF
+Combine multiple PDF documents into a single file with controlled ordering.
 
-Combine multiple PDF documents into a single file.
-
-- Add multiple PDFs
-- Control document order
-- Process locally
-- Save the resulting document
-
----
+</td>
+<td width="50%">
 
 ### ✂️ Split PDF
+Split documents into selected pages, ranges, or separate outputs.
 
-Separate PDF pages into individual documents or selected ranges.
-
-- Select pages
-- Define page ranges
-- Process in the background
-- Save generated files
-
----
+</td>
+</tr>
+<tr>
+<td>
 
 ### 🗂️ Organize PDF
+Reorder, duplicate, delete, insert, and replace pages through a visual workflow.
 
-Manage the structure of your document with an interactive workflow.
-
-- Reorder pages
-- Delete pages
-- Duplicate pages
-- Insert pages
-- Replace pages
-- Stage changes before saving
-
-PDFusion protects the original file until changes are explicitly saved.
-
----
+</td>
+<td>
 
 ### 🔄 Rotate PDF
+Correct page orientation and rotate PDF pages when needed.
 
-Rotate individual pages or PDF content to the correct orientation.
-
-Useful for:
-
-- Scanned documents
-- Mixed-orientation PDFs
-- Rotated pages
-- Document cleanup
-
----
+</td>
+</tr>
+<tr>
+<td>
 
 ### ✂️ Crop PDF
+Crop pages to remove unwanted margins or focus on relevant content.
 
-Crop PDF pages to remove unwanted margins or content areas.
-
----
+</td>
+<td>
 
 ### 📤 Extract Pages
+Select specific pages and create a new PDF from them.
 
-Extract selected pages from an existing PDF into a new document.
-
----
-
-# 🖥️ Desktop Experience
-
-PDFusion is more than a collection of PDF functions.
-
-It includes a complete desktop workspace with:
-
-- Dashboard
-- Sidebar navigation
-- Toolbar
-- PDF viewer
-- Page thumbnails
-- Zoom controls
-- Recent files
-- Favorites
-- Processing history
-- Settings
-- Dependency detection
-- Error handling
-- Application logging
+</td>
+</tr>
+</table>
 
 ---
 
-# 🔒 Privacy First
+## 🖥️ Workspace Features
 
-PDFusion follows a **local-first architecture**.
+- 🏠 **Dashboard** — Central starting point for PDF workflows
+- 👁️ **PDF Viewer** — Visual document preview with navigation
+- 🖱️ **Drag & Drop** — Convenient file intake
+- 🗃️ **Recent Files** — Quickly return to recently used documents
+- ⭐ **Favorites** — Keep frequently used files accessible
+- 📜 **Processing History** — Track previous PDF operations
+- ⚙️ **Settings** — Centralized application configuration
+- 🌙 **Dark Mode** — Comfortable dark interface
+- ☀️ **Light Mode** — Clean light interface
+- 🧵 **Background Processing** — Keep the interface responsive during operations
+- 📝 **Logging** — Application-level diagnostic logging
+- 🛡️ **Error Handling** — Safer and clearer failure handling
 
-Your documents are processed locally instead of being uploaded to a third-party PDF processing service.
+---
 
-Local application data is stored under:
+# 🔐 Local-First by Design
+
+PDFusion is designed around a **local-first workflow**.
+
+Your PDF files can be processed directly on your computer instead of requiring a third-party online PDF processing website.
 
 ```text
-%APPDATA%/PDFusion/
-````
-
-Including:
-
-```text
-pdfusion.sqlite3
-logs/
-temp/
+Your PDF
+   │
+   ▼
+┌─────────────────────┐
+│      PDFusion       │
+│                     │
+│  View • Process     │
+│  Organize • Export  │
+└──────────┬──────────┘
+           │
+           ▼
+      Your Computer
 ```
 
-The application uses SQLite for local data such as recent files, favorites, history, and settings.
+> **Your documents. Your machine. Your workflow.**
 
 ---
 
-# 🎨 Themes
+# 🎨 Interface
 
-PDFusion supports both:
+PDFusion focuses on a distraction-free desktop experience with:
 
-### 🌙 Dark Mode
+```text
+┌──────────────────────────────────────────────────────┐
+│  PDFusion                                  ⚙ Settings │
+├──────────────┬───────────────────────────────────────┤
+│              │                                       │
+│   Dashboard  │        PDF Workspace                  │
+│              │                                       │
+│   Recent     │        View • Edit • Process          │
+│              │                                       │
+│   Favorites  │                                       │
+│              │                                       │
+│   History    │                                       │
+│              │                                       │
+└──────────────┴───────────────────────────────────────┘
+```
 
-A dark interface designed for comfortable extended use.
-
-### ☀️ Light Mode
-
-A clean light interface for users who prefer a brighter workspace.
+The interface is built with **PySide6**, giving PDFusion a native desktop application foundation while keeping the architecture extensible.
 
 ---
 
 # 📸 Screenshots
 
+> A visual tour of the current PDFusion workspace.
+
 ## 🚀 Splash Screen
 
 <div align="center">
-
-<img src="Screenshots/Splash%20Screen.png" width="850" alt="PDFusion Splash Screen">
-
+<img src="Screenshots/Splash%20Screen.png" width="900" alt="PDFusion Splash Screen"/>
 </div>
 
 ---
@@ -206,19 +181,7 @@ A clean light interface for users who prefer a brighter workspace.
 ## 🏠 Home Dashboard
 
 <div align="center">
-
-<img src="Screenshots/Home.png" width="850" alt="PDFusion Home">
-
-</div>
-
----
-
-## ℹ️ About PDFusion
-
-<div align="center">
-
-<img src="Screenshots/About%20PDFusion.png" width="850" alt="About PDFusion">
-
+<img src="Screenshots/Home.png" width="900" alt="PDFusion Home Dashboard"/>
 </div>
 
 ---
@@ -226,17 +189,13 @@ A clean light interface for users who prefer a brighter workspace.
 ## 🔗 Merge PDF
 
 <div align="center">
-
-<img src="Screenshots/Merging%20Pdf.png" width="850" alt="Merging PDF">
-
+<img src="Screenshots/Merging%20Pdf.png" width="900" alt="PDFusion Merge PDF"/>
 </div>
 
-### After Merging
+### ✅ Merged Result
 
 <div align="center">
-
-<img src="Screenshots/PDF%20Merged.png" width="850" alt="PDF Merged">
-
+<img src="Screenshots/PDF%20Merged.png" width="900" alt="PDFusion Merged PDF"/>
 </div>
 
 ---
@@ -244,9 +203,7 @@ A clean light interface for users who prefer a brighter workspace.
 ## ✂️ Split PDF
 
 <div align="center">
-
-<img src="Screenshots/PDF%20Splitting.png" width="850" alt="PDF Splitting">
-
+<img src="Screenshots/PDF%20Splitting.png" width="900" alt="PDFusion Split PDF"/>
 </div>
 
 ---
@@ -254,9 +211,7 @@ A clean light interface for users who prefer a brighter workspace.
 ## 🗂️ Organize PDF
 
 <div align="center">
-
-<img src="Screenshots/Organize%20pdf.png" width="850" alt="Organize PDF">
-
+<img src="Screenshots/Organize%20pdf.png" width="900" alt="PDFusion Organize PDF"/>
 </div>
 
 ---
@@ -264,9 +219,7 @@ A clean light interface for users who prefer a brighter workspace.
 ## 🔄 Rotate PDF
 
 <div align="center">
-
-<img src="Screenshots/Rotate%20PDF.png" width="850" alt="Rotate PDF">
-
+<img src="Screenshots/Rotate%20PDF.png" width="900" alt="PDFusion Rotate PDF"/>
 </div>
 
 ---
@@ -274,9 +227,7 @@ A clean light interface for users who prefer a brighter workspace.
 ## ✂️ Crop PDF
 
 <div align="center">
-
-<img src="Screenshots/Crop%20PDF.png" width="850" alt="Crop PDF">
-
+<img src="Screenshots/Crop%20PDF.png" width="900" alt="PDFusion Crop PDF"/>
 </div>
 
 ---
@@ -284,9 +235,7 @@ A clean light interface for users who prefer a brighter workspace.
 ## 📤 Extract Pages
 
 <div align="center">
-
-<img src="Screenshots/Extract%20Pages.png" width="850" alt="Extract Pages">
-
+<img src="Screenshots/Extract%20Pages.png" width="900" alt="PDFusion Extract Pages"/>
 </div>
 
 ---
@@ -294,9 +243,7 @@ A clean light interface for users who prefer a brighter workspace.
 ## 📂 Recent Files
 
 <div align="center">
-
-<img src="Screenshots/Recent%20Files.png" width="850" alt="Recent Files">
-
+<img src="Screenshots/Recent%20Files.png" width="900" alt="PDFusion Recent Files"/>
 </div>
 
 ---
@@ -304,9 +251,7 @@ A clean light interface for users who prefer a brighter workspace.
 ## 📑 Recent Files Tab
 
 <div align="center">
-
-<img src="Screenshots/Recent%20Files%20Tab.png" width="850" alt="Recent Files Tab">
-
+<img src="Screenshots/Recent%20Files%20Tab.png" width="900" alt="PDFusion Recent Files Tab"/>
 </div>
 
 ---
@@ -314,9 +259,7 @@ A clean light interface for users who prefer a brighter workspace.
 ## 📜 Processing History
 
 <div align="center">
-
-<img src="Screenshots/Processing%20History.png" width="850" alt="Processing History">
-
+<img src="Screenshots/Processing%20History.png" width="900" alt="PDFusion Processing History"/>
 </div>
 
 ---
@@ -324,9 +267,7 @@ A clean light interface for users who prefer a brighter workspace.
 ## ⚙️ Settings
 
 <div align="center">
-
-<img src="Screenshots/Setting.png" width="850" alt="PDFusion Settings">
-
+<img src="Screenshots/Setting.png" width="900" alt="PDFusion Settings"/>
 </div>
 
 ---
@@ -334,9 +275,15 @@ A clean light interface for users who prefer a brighter workspace.
 ## 🌙 Dark Mode
 
 <div align="center">
+<img src="Screenshots/Dark%20Mode.png" width="900" alt="PDFusion Dark Mode"/>
+</div>
 
-<img src="Screenshots/Dark%20Mode.png" width="850" alt="PDFusion Dark Mode">
+---
 
+## ℹ️ About PDFusion
+
+<div align="center">
+<img src="Screenshots/About%20PDFusion.png" width="900" alt="About PDFusion"/>
 </div>
 
 ---
@@ -345,17 +292,17 @@ A clean light interface for users who prefer a brighter workspace.
 
 <div align="center">
 
-| Technology          | Purpose                              |
-| ------------------- | ------------------------------------ |
-| 🐍 **Python 3.11+** | Core application                     |
-| 🖥️ **PySide6**     | Desktop GUI                          |
-| 📄 **PyMuPDF**      | PDF rendering & low-level operations |
-| 📚 **pypdf**        | PDF structural operations            |
-| 🖼️ **Pillow**      | Image processing                     |
-| 🔍 **pytesseract**  | OCR integration                      |
-| 🗄️ **SQLite**      | Local application data               |
-| 🧪 **PyTest**       | Testing                              |
-| 📦 **PyInstaller**  | Application packaging                |
+| Technology | Role |
+|:---|:---|
+| 🐍 **Python 3.11+** | Core application logic |
+| 🖥️ **PySide6** | Desktop graphical interface |
+| 📄 **PyMuPDF** | PDF rendering and document operations |
+| 📚 **pypdf** | PDF structural manipulation |
+| 🖼️ **Pillow** | Image processing |
+| 🔍 **pytesseract** | OCR integration |
+| 🗄️ **SQLite** | Local application data |
+| 🧪 **PyTest** | Automated testing |
+| 📦 **PyInstaller** | Desktop packaging |
 
 </div>
 
@@ -363,38 +310,24 @@ A clean light interface for users who prefer a brighter workspace.
 
 # 🏗️ Architecture
 
-PDFusion follows a modular architecture designed to keep the UI, PDF engine, workers, database, and utilities separated.
+PDFusion is structured as a modular desktop application so that UI code, document processing, background workers, and local storage can evolve independently.
 
 ```text
 PDFusion/
 │
 ├── app/
-│   ├── ui/
-│   │   ├── views/
-│   │   └── widgets/
-│   │
-│   ├── core/
-│   │   └── PDF processing engine
-│   │
-│   ├── workers/
-│   │   └── Background processing
-│   │
-│   ├── database/
-│   │   └── SQLite repositories
-│   │
-│   └── utils/
-│       ├── Logging
-│       ├── Error handling
-│       ├── Validation
-│       └── Dependency detection
+│   ├── core/                 # PDF processing logic
+│   ├── database/             # Local SQLite data layer
+│   ├── ui/                   # Windows, views & widgets
+│   ├── workers/              # Background processing
+│   └── utils/                # Logging, validation & helpers
 │
-├── Screenshots/
+├── Screenshots/              # Project screenshots
+├── tests/                    # Automated tests
 │
-├── tests/
-│
-├── main.py
-├── requirements.txt
-├── PHASES.md
+├── main.py                   # Application entry point
+├── requirements.txt          # Python dependencies
+├── PHASES.md                 # Development phases
 └── README.md
 ```
 
@@ -402,29 +335,19 @@ PDFusion/
 
 # ⚡ Installation
 
-## 1️⃣ Clone the Repository
+## 1. Clone
 
 ```bash
 git clone https://github.com/MUdevelops/PDFusion.git
-```
-
-```bash
 cd PDFusion
 ```
 
----
-
-## 2️⃣ Create a Virtual Environment
+## 2. Create a Virtual Environment
 
 ### Windows
 
 ```bash
 python -m venv .venv
-```
-
-Activate it:
-
-```bash
 .venv\Scripts\activate
 ```
 
@@ -432,23 +355,16 @@ Activate it:
 
 ```bash
 python3 -m venv .venv
-```
-
-```bash
 source .venv/bin/activate
 ```
 
----
-
-## 3️⃣ Install Dependencies
+## 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## 4️⃣ Run PDFusion
+## 4. Launch PDFusion
 
 ```bash
 python main.py
@@ -456,54 +372,15 @@ python main.py
 
 ---
 
-# 🖱️ Quick Start
-
-### Step 1
-
-Launch PDFusion.
-
-### Step 2
-
-Open a PDF using the dashboard or drag and drop a document into the application.
-
-### Step 3
-
-Select the operation you need:
-
-```text
-Merge
-Split
-Organize
-Rotate
-Crop
-Extract
-```
-
-### Step 4
-
-Configure the operation.
-
-### Step 5
-
-Process the document.
-
-### Step 6
-
-Save the resulting PDF.
-
-Your original document remains protected until you explicitly save changes.
-
----
-
 # 🧪 Testing
 
-Run the test suite with:
+Run the test suite:
 
 ```bash
 pytest tests/
 ```
 
-For a quieter test output:
+Or use the concise output:
 
 ```bash
 pytest tests/ -q
@@ -511,111 +388,29 @@ pytest tests/ -q
 
 ---
 
-# 📦 Project Status
+# 📦 Optional System Dependencies
 
-### Phase 2 — Complete ✅
+Some advanced workflows may use additional applications installed on the host machine.
 
-Current implementation includes:
+| Dependency | Purpose |
+|---|---|
+| **Tesseract OCR** | Optical Character Recognition |
+| **LibreOffice** | Office document conversion |
+| **Ghostscript** | Advanced PDF processing/compression |
 
-```text
-✅ Application Shell
-✅ Dashboard
-✅ Sidebar Navigation
-✅ Dark / Light Theme
-✅ PDF Viewer
-✅ Drag & Drop
-✅ Recent Files
-✅ Favorites
-✅ Processing History
-✅ Settings
-✅ Dependency Detection
-✅ Logging
-✅ Error Handling
-✅ Merge PDF
-✅ Split PDF
-✅ Organize PDF
-✅ Rotate PDF
-✅ Crop PDF
-✅ Extract Pages
-✅ Background Processing
-```
+PDFusion can detect relevant dependencies where those workflows require them.
 
 ---
 
-# 🗺️ Roadmap
+# 🗃️ Local Application Data
 
-PDFusion is being developed incrementally with functional verification at every phase.
-
-### Phase 3 — Convert & Optimize
+On Windows, PDFusion stores application data under:
 
 ```text
-⬜ Compress PDF
-⬜ Images → PDF
-⬜ PDF → JPG / PNG
-⬜ Metadata
-⬜ Watermark
-⬜ Page Numbers
+%APPDATA%\PDFusion\
 ```
 
-### Phase 4 — Security & Markup
-
-```text
-⬜ Protect PDF
-⬜ Unlock PDF
-⬜ Digital Signature
-⬜ Annotation
-⬜ Redaction
-⬜ Advanced Cropping
-```
-
-### Phase 5 — OCR & Office Conversion
-
-```text
-⬜ OCR
-⬜ Searchable PDF
-⬜ DOCX Conversion
-⬜ XLSX Conversion
-⬜ PPTX Conversion
-⬜ Advanced Optimization
-```
-
-### Phase 6 — Batch & Packaging
-
-```text
-⬜ Batch Processing Queue
-⬜ Performance Optimization
-⬜ Extended Test Coverage
-⬜ PyInstaller Build
-⬜ Windows Installer
-```
-
----
-
-# 🔐 Optional Dependencies
-
-Some advanced PDF workflows can use external system tools.
-
-| Dependency        | Purpose                  |
-| ----------------- | ------------------------ |
-| **Tesseract OCR** | OCR functionality        |
-| **LibreOffice**   | Office ↔ PDF conversion  |
-| **Ghostscript**   | Advanced PDF compression |
-
-These dependencies are detected by PDFusion where applicable.
-
----
-
-# 📁 Local Data
-
-PDFusion creates its local application data directory automatically.
-
-### Windows
-
-```text
-%APPDATA%\PDFusion
-```
-
-Structure:
+Typical local data includes:
 
 ```text
 PDFusion/
@@ -625,70 +420,111 @@ PDFusion/
 └── temp/
 ```
 
-Temporary files are cleaned automatically during application startup.
+---
+
+# 📊 Project Status
+
+<div align="center">
+
+### 🟣 Phase 2 — Complete
+
+</div>
+
+```text
+████████████████████████████████████████  Core Workspace
+████████████████████████████████████████  PDF Operations
+████████████████████████████████████████  Desktop UX
+████████████████████████████████████████  Local Data
+```
+
+### Implemented
+
+- [x] Application shell
+- [x] Dashboard
+- [x] PDF viewer
+- [x] Drag & drop
+- [x] Recent files
+- [x] Favorites
+- [x] Processing history
+- [x] Settings
+- [x] Dark / Light themes
+- [x] Logging
+- [x] Error handling
+- [x] Background processing
+- [x] Merge PDF
+- [x] Split PDF
+- [x] Organize PDF
+- [x] Rotate PDF
+- [x] Crop PDF
+- [x] Extract Pages
 
 ---
 
-# 🧑‍💻 Development
+# 🗺️ Roadmap
 
-Clone the project:
+### 🔵 Phase 3 — Convert & Optimize
 
-```bash
-git clone https://github.com/MUdevelops/PDFusion.git
-cd PDFusion
-```
+- [ ] PDF compression
+- [ ] Images → PDF
+- [ ] PDF → JPG / PNG
+- [ ] Metadata management
+- [ ] Watermarks
+- [ ] Page numbering
 
-Create the environment:
+### 🟣 Phase 4 — Security & Markup
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
+- [ ] Password protection
+- [ ] PDF unlocking
+- [ ] Digital signatures
+- [ ] Annotations
+- [ ] Redaction
 
-Install dependencies:
+### 🟢 Phase 5 — OCR & Office
 
-```bash
-pip install -r requirements.txt
-```
+- [ ] OCR workflows
+- [ ] Searchable PDFs
+- [ ] DOCX conversion
+- [ ] XLSX conversion
+- [ ] PPTX conversion
+- [ ] Advanced optimization
 
-Run:
+### 🟠 Phase 6 — Scale & Distribution
 
-```bash
-python main.py
-```
-
-Test:
-
-```bash
-pytest tests/
-```
+- [ ] Batch processing queue
+- [ ] Performance optimization
+- [ ] Expanded automated tests
+- [ ] PyInstaller production build
+- [ ] Windows installer
 
 ---
 
 # 🤝 Contributing
 
-Contributions, suggestions, bug reports, and feature ideas are welcome.
-
-If you want to contribute:
-
-1. Fork the repository
-2. Create a feature branch
-3. Implement your changes
-4. Test your changes
-5. Commit your work
-6. Open a Pull Request
-
-Example:
+Contributions, ideas, bug reports, and improvements are welcome.
 
 ```bash
+# Fork the repository
+# Create your feature branch
 git checkout -b feature/my-feature
+
+# Make your changes
+# Run tests
+pytest tests/ -q
+
+# Commit
+git commit -m "feat: add my feature"
+
+# Push
+git push origin feature/my-feature
 ```
+
+Then open a Pull Request.
 
 ---
 
 # 📜 License
 
-PDFusion is released under the **MIT License**.
+This project is licensed under the **MIT License**.
 
 See [`LICENSE`](LICENSE) for details.
 
@@ -698,17 +534,15 @@ See [`LICENSE`](LICENSE) for details.
 
 <div align="center">
 
-### Muhammad Umar Jamal
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3200&pause=1000&color=06B6D4&center=true&vCenter=true&width=650&lines=Built+by+Muhammad+Umar+Jamal;Software+Developer+%7C+BSCS+Student;Building+real+software%2C+not+just+prototypes." alt="Author Animation"/>
 
-**Software Developer | BSCS Student | Builder**
+### **Muhammad Umar Jamal**
 
-I build practical software projects focused on automation, AI, desktop applications, and modern developer tools.
-
-<br>
-
-<a href="https://github.com/MUdevelops">
-  <img src="https://img.shields.io/badge/GitHub-MUdevelops-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
+<p>
+  <a href="https://github.com/MUdevelops">
+    <img src="https://img.shields.io/badge/GitHub-MUdevelops-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 </div>
 
@@ -716,18 +550,10 @@ I build practical software projects focused on automation, AI, desktop applicati
 
 <div align="center">
 
-## ⭐ Support PDFusion
+### ⭐ If PDFusion is useful, consider giving it a star!
 
-If you find PDFusion useful, consider giving the repository a ⭐ on GitHub.
+**Made with Python • Built for Desktop • Designed for Privacy**
 
-<br>
-
-**Built with Python • Designed for Privacy • Made for Productivity**
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F8CFF,50:6C63FF,100:8A2BE2&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,35:7C3AED,70:312E81,100:0F172A&height=140&section=footer&animation=twinkling" width="100%"/>
 
 </div>
-
-[2]: https://github.com/MUdevelops/PDFusion/blob/main/requirements.txt "PDFusion/requirements.txt at main · MUdevelops/PDFusion · GitHub"
